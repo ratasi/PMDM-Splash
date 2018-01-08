@@ -19,11 +19,11 @@ public class MenuActivity extends AppCompatActivity {
         super.onCreate(savedInstaceState);
         setContentView(R.layout.activity_menu);
         ArrayList<DatosMenu> opcionsDelMenu=new ArrayList<>();
-       // opcionsDelMenu.add(new DatosMenu("PERFIL",R.drawable.profile));
-        //opcionsDelMenu.add(new DatosMenu("JUEGO",R.drawable.play));
-        //opcionsDelMenu.add(new DatosMenu("INSTRUCCIONES",R.drawable.intructions));
-        //opcionsDelMenu.add(new DatosMenu("INFORMACIÓN", R.drawable.info));
-        opcionsDelMenu.add(new DatosMenu("TEST", R.drawable.ic_android_black_24dp));
+        opcionsDelMenu.add(new DatosMenu("PERFIL",R.drawable.face));
+        opcionsDelMenu.add(new DatosMenu("JUEGO",R.drawable.ps4));
+        opcionsDelMenu.add(new DatosMenu("INSTRUCCIONES",R.drawable.cup));
+        opcionsDelMenu.add(new DatosMenu("INFORMACIÓN", R.drawable.sup));
+
 
 
         //6-Le pasamos el Fragment definido en la clase MenuFragment
