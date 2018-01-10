@@ -7,17 +7,31 @@
     android:layout_height="match_parent">
     //android:background="@drawable/back">
 
-    <ImageView
-        android:id="@+id/imageViewMenu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="Imagen Android"
-        app:srcCompat="@drawable/dados" />
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerMenuID"
-        android:layout_width="match_parent"
+    <RelativeLayout
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_below="@id/imageViewMenu"
-        android:scrollbars="vertical" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="494dp"
+        android:layout_marginRight="494dp"
+        android:background="@android:color/darker_gray">
+
+        <ImageView
+            android:id="@+id/imageViewMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Imagen Android"
+            app:srcCompat="@drawable/dados2"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerMenuID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/imageViewMenu"
+            android:scrollbars="vertical" />
+    </RelativeLayout>
+
 </RelativeLayout>
